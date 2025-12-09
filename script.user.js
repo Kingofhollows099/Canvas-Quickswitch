@@ -2,7 +2,6 @@
 // @name        Canvas Quickswitch
 // @namespace   https://github.com/Kingofhollows099
 // @match       https://*.instructure.com/courses/*/assignments/*/submissions/*
-// @grant       none
 // @version     1.0
 // @author      Kingofhollows099
 // @description Adds a button into all Canvas assignment submission pages that brings you to the assignment page for that assignment
@@ -71,3 +70,4 @@ document.head.appendChild(style);
     }, true);
 
 })();
+
