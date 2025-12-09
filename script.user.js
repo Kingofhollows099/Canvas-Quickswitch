@@ -1,11 +1,12 @@
 // ==UserScript==
 // @name        Canvas Quickswitch
-// @namespace   Violentmonkey Scripts
+// @namespace   https://github.com/Kingofhollows099
 // @match       https://*.instructure.com/courses/*/assignments/*/submissions/*
 // @grant       none
 // @version     1.0
 // @author      Kingofhollows099
-// @description
+// @description Adds a button into all Canvas assignment submission pages that brings you to the assignment page for that assignment
+// @downloadURL https://github.com/Kingofhollows099/Canvas-Quickswitch/raw/refs/heads/main/script.user.js
 // ==/UserScript==
 
 (function() {
@@ -68,4 +69,5 @@ document.head.appendChild(style);
         e.preventDefault();
         e.stopPropagation();
     }, true);
+
 })();
